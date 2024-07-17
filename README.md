@@ -7,3 +7,4 @@ docker run --name mykeycloak -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_AD
 localhost:8080
 
 admin admin
+
