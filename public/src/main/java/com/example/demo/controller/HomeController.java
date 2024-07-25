@@ -24,4 +24,9 @@ public class HomeController {
         return ResponseEntity.ok("Hello to user home");
     }
 
+    @GetMapping("/home/admin-user")
+    public ResponseEntity<String> homeUserAdmin() {
+        return ResponseEntity.ok("Hello to user home");
+    }
+
 }

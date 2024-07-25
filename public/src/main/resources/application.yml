@@ -8,7 +8,7 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/example-security-realm
-          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri} /protocol/openid-connect/token
+          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
           auth:
             converter:
               resource-id: example-security-realm-realm
